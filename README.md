@@ -17,4 +17,14 @@ A fully functional GenAI chatbot powered by Retrieval-Augmented Generation (RAG)
 ---
 
 ## 📁 Project Structure
+genai-chatbot/
+├── app.py                 # Main Streamlit interface
+├── rag_pipeline.py        # RAG workflow: retrieval + LLM response
+├── embedder.py            # Embedding function using SentenceTransformers
+├── prompt_template.py     # Builds prompt using retrieved context
+├── utils.py               # Utility functions (e.g., text cleanup)
+├── requirements.txt       # Python dependencies
+├── docs/                  # Uploaded .txt files (used as knowledge base)
+├── .gitignore             # Optional: ignores venv, cache, etc.
+└── README.md              # Project description and usage guide
 
